@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Weather.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Weather Forcast</h1>
+    <div class="box">
+      <!-- <label for ="city">Enter City Name</label> -->
+       <div class="second">
+        <input
+        type="text"
+        name=""
+        id="city"
+        placeholder="Enter your city name here.."
+      /><br />
+      <button onclick="weathercall()">search</button>
+       </div>
+      
+      <!--Display data-->
+      <div class="results" id="result-box">
+        <h2>Weather Info</h2>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+    </div>
+    <!--p id ="para">HELLO PARA</p-->
+    <script src="Weather.js"></script>
+  </body>
+</html>
